@@ -1,7 +1,15 @@
-app.get("/", function(req, res) {
-    res.sendFile(path.join(__dirname, ""));
+//DEPENDENCIES
+var path = require('path');
+
+//ROUTING
+module.exports = function(app){
+  app.get('/survey', function(req, res) {
+    res.sendFile(path.join(__dirname, '/../public/survey.html'));
   });
 
-  app.get("", function(req, res) {
-    res.sendFile(path.join(__dirname, ""));
+  //If no matching route is found use this
+  app.use(function(req, res){
+    res.sendFile(path.join(__dirname, "/../public/home.html"));
   });
+
+}

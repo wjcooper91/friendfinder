@@ -16,8 +16,8 @@ app.use(bodyParser.text());
 //ROUTER
 //Indicates the "route" files to point to.
 //shows to server how to respond when users visit a url or request data from a url
-// require('./app/routing/api-routes.js')(app);
-// require('./app/routing/html-routes/js')(app);
+require('./app/routing/apiRoutes.js')(app);
+require('./app/routing/htmlRoutes.js')(app);
 
 //LISTEN
 //"starts" the server
