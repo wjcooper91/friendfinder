@@ -1,7 +1,7 @@
 var tableArray = [
     {
         "name":"Rick Sanchez",
-        "photo":"/Users/williamcooper/workspace/homework/friendfinder/app/pictures/rick_sanchez.jpg",
+        "photo":"https://res.cloudinary.com/hpn7unzmh/image/upload/v1534129142/rick_sanchez.jpg",
         "scores":[
             5,
             3,
@@ -33,7 +33,7 @@ var tableArray = [
       },
       {
         "name":"Morty Smith",
-        "photo":"/Users/williamcooper/workspace/homework/friendfinder/app/pictures/morty_smith.jpg",
+        "photo":"https://res.cloudinary.com/hpn7unzmh/image/upload/v1534129142/morty_smith.jpg",
         "scores":[
             1,
             3,
