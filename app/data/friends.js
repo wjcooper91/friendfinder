@@ -17,7 +17,7 @@ var tableArray = [
       },
       {
         "name":"Beth Smith",
-        "photo":"/Users/williamcooper/workspace/homework/friendfinder/app/pictures/beth_smith.jpg",
+        "photo":"http://res.cloudinary.com/hpn7unzmh/image/upload/v1534129142/beth_smith.jpg",
         "scores":[
             3,
             2,
